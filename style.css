@@ -1,0 +1,144 @@
+
+       /* Estilo global para la página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Hace que el cuerpo de la página tenga una altura del 100% del viewport */
+    background-image: url('fondo.jpeg'); /* Reemplaza con la ruta correcta de la imagen */
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en la pantalla */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* La imagen de fondo se mantiene fija al hacer scroll */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    color: #efefef; /* Color del texto */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo negro semitransparente para el encabezado */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Estilo para la barra lateral */
+.sidebar {
+    background-color: rgb(225, 242, 229); /* Fondo semitransparente para la barra lateral */
+    padding: 15px;
+    width: 200px;
+    flex-shrink: 0;
+    color: #fff;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #146ea3;
+    font-weight: bold;
+}
+
+/* Estilo para la sección principal */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.271); /* Fondo semitransparente para la sección principal */
+    border-radius: 20px;
+}
+
+/* Estilo para los títulos de secciones */
+h2 {
+    color: #fff;
+    margin-top: 0;
+}
+
+/* Estilo para formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label {
+    margin-bottom: 5px;
+}
+
+input, button {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #82a68a;
+}
+
+/* Estilo para tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para las celdas */
+    color: #0a0909;
+}
+
+th {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco más opaco para las cabeceras */
+}
+h2 {
+    color: green;
+}
